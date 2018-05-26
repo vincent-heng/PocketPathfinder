@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/room_name_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_room_name" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button" />
+
+    <Button
+        android:id="@+id/doc_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/doc_button" />
+
+    <Button
+        android:id="@+id/tools_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tools_button" />
+
+    <Button
+        android:id="@+id/story_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/story_button"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/characters_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/characters_button"
+        android:visibility="gone" />
+
+</LinearLayout>

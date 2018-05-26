@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:id="@+id/characters_layout">
+        <ProgressBar
+            android:id="@+id/characters_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"/>
+
+        <!--
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1"
+                    android:background="@color/common_google_signin_btn_text_light_default">
+                    <TableRow>
+                        <TextView
+                            android:text="Joueur : Jean-Roger"
+                            android:layout_gravity="center"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Urg'Graah"
+                            android:layout_gravity="center"/>
+                        <TextView
+                            android:text="Demi-Orc Guerrier"
+                            android:layout_gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Niveau : 1"
+                            android:layout_gravity="center"/>
+                        <TextView
+                            android:text="140 XP"
+                            android:layout_gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Points de vie :"
+                            android:layout_gravity="center"/>
+                        <ProgressBar
+                            android:id="@+id/indeterminateBar"
+                            style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+                            android:progress="75"/>
+                    </TableRow>
+                    <TableRow>
+                        <Button
+                            android:text="Voir Fiche de personnage"
+                            android:layout_span="2"/>
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1"
+                    android:background="@color/common_google_signin_btn_text_light_default">
+                    <TableRow>
+                        <TextView
+                            android:text="Joueur : Marie-Rachida"
+                            android:layout_gravity="center"
+                            android:layout_span="2"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Groli de Montisseau"
+                            android:layout_gravity="center"/>
+                        <TextView
+                            android:text="Humain Prêtre"
+                            android:layout_gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Niveau : 1"
+                            android:layout_gravity="center"/>
+                        <TextView
+                            android:text="130 XP"
+                            android:layout_gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="Points de vie :"
+                            android:layout_gravity="center"/>
+                        <ProgressBar
+                            android:id="@+id/indeterminateBar"
+                            style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+                            android:progress="90"/>
+                    </TableRow>
+                    <TableRow>
+                        <Button
+                            android:text="Voir Fiche de personnage"
+                            android:layout_span="2"/>
+                    </TableRow>
+                </TableLayout>
+        -->
+    </LinearLayout>
+</ScrollView>
